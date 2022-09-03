@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "f2e9aab9a52d91853abf0d02df020496",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "QwV7aBWasfF28v92s6LSCKMwHx4ZC2Jd6bTOCsABtwM",
+  TEMPLATE_ID: "qnhKd3iujRuuT6bduX7FZ65LfUCKpAG7dp0K1tSKNzU",
 
   // 天行API的key
   TXApiKey: "028e8c65f21523e1d5825be315e14c17",
@@ -23,23 +23,11 @@ const CONFIG = {
       // 男(女)朋友的名字（或昵称或网名）
       userName: "小红红",
       // 用户列表的`微信号`
-      userId: "11",
+      userId: "oWTxF6st3PuSHZpJuQBvMRWfWgRM",
       // 星座
       star: "双子座",
       // 生日 - 格式：08-22
       birthday: "07-05",
-      // 城市 - 格式：支持省市县区
-      city: "哈尔滨市",
-    },
-    {
-      // 男(女)朋友的名字（或昵称或网名）
-      userName: "小灰灰",
-      // 用户列表的`微信号`
-      userId: "oWTxF6vITqNTdaTom8o1UkUuMBkg",
-      // 星座
-      star: "射手座",
-      // 生日 - 格式：08-22
-      birthday: "12-013",
       // 城市 - 格式：支持省市县区
       city: "哈尔滨市",
     }
@@ -58,7 +46,7 @@ const CONFIG = {
     // 天气接口 默认接口1，可选接口1、2，接口2暂时无法使用
     weatherType: 1,
     // 星座运势
-    star: true,
+    star: false,
     // 土味情话
     saylove: false,
     // 健康小提示
@@ -66,7 +54,7 @@ const CONFIG = {
     // 毒鸡汤
     duJiTang: false,
     // 早安心语
-    zaoAn: true,
+    zaoAn: false,
     // 晚安心语
     wanAn: false,
     // 彩虹屁
