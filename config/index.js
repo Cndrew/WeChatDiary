@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "f2e9aab9a52d91853abf0d02df020496",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "7RecHNHM1UZ9HQRypfAZx_BXxMPIoYS7TLZVufX0dbY",
+  TEMPLATE_ID: "QWlvUYrj1E-_afak6EcgPCaFSdqjZmBDJUOsJ4ZwGH0",
 
   // 天行API的key
   TXApiKey: "028e8c65f21523e1d5825be315e14c17",
@@ -65,11 +65,11 @@ const CONFIG = {
     // 土味情话
     saylove: true,
     // 健康小提示
-    healthtip: false,
+    healthtip: true,
     // 毒鸡汤
     duJiTang: false,
     // 早安心语
-    zaoAn: false,
+    zaoAn: true,
     // 晚安心语
     wanAn: false,
     // 彩虹屁
