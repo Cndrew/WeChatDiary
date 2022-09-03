@@ -33,9 +33,9 @@ const { CONFIG } = require("./config/index");
         value: Util.getBirthday(item.birthday) + "天",
         color: Util.getColor(),
       },
-      // 旅游天数
-      tourism: {
-        value: Util.nextTourismDay(CONFIG.tourism) + "天",
+      // 遇见天数
+      meetingDay: {
+        value: Util.getMeetingDay(CONFIG.meetingDay) + "天",
         color: Util.getColor(),
       },
     };
