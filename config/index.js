@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "f2e9aab9a52d91853abf0d02df020496",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "0ppjULQ-tEoDcta7_T7ZDxliDq2uQWz6Du2io33crDI",
+  TEMPLATE_ID: "QwV7aBWasfF28v92s6LSCKMwHx4ZC2Jd6bTOCsABtwM",
 
   // 天行API的key
   TXApiKey: "028e8c65f21523e1d5825be315e14c17",
@@ -60,17 +60,17 @@ const CONFIG = {
     // 星座运势
     star: true,
     // 土味情话
-    saylove: true,
+    saylove: false,
     // 健康小提示
     healthtip: true,
     // 毒鸡汤
-    duJiTang: true,
+    duJiTang: false,
     // 早安心语
     zaoAn: true,
     // 晚安心语
-    wanAn: true,
+    wanAn: false,
     // 彩虹屁
-    caiHongPi: true,
+    caiHongPi: false,
   },
 };
 
