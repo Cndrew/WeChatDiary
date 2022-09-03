@@ -101,13 +101,12 @@ const getBirthday = (birthday) => {
  * @param {*} tourism 格式：yyyy-MM-dd
  * @returns
  */
-const nextTourismDay = (tourism) => {
-  const nowTime = getZeroTime();
-  const tourismTime = new Date(tourism + " 00:00:00").getTime();
-  if (nowTime > tourismTime) {
-    return "旅游已完成，请继续下一次旅游吧";
-  }
-  return calculateDays(nowTime, tourismTime);
+const getMeetingDay = (startDate) => {
+  startDate = new Date(startDate + " 00:00:00").getTime();
+
+  const nowDate = getZeroTime();
+
+  return calculateDays(startDate, nowDate);
 };
 
 /**
@@ -135,6 +134,6 @@ module.exports = {
   getNowDate,
   togetherDays,
   getBirthday,
-  nextTourismDay,
+  getMeetingDay,
   getColor,
 };
